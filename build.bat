@@ -6,7 +6,7 @@ set TARGET_NAME=comptime.exe
 set SRC_FILENAMES=main.c 
 set ROOT_FOLDER=D:\Users\aauhabin1\dev\c\comptime\
 set CFLAGS=-Wall -Wextra -pedantic -ggdb -fanalyzer -std=c11 -O1 
-set LINK_LIBRARIES=tree-sitter
+set LINK_LIBRARIES=tree-sitter tree-sitter-c
 
 setlocal enabledelayedexpansion
 
